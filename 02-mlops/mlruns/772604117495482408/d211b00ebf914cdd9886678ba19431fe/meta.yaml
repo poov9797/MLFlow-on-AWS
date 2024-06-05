@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pravin/Zoomcamp-1/02-mlops/mlruns/772604117495482408/d211b00ebf914cdd9886678ba19431fe/artifacts
+end_time: 1717587150682
+entry_point_name: ''
+experiment_id: '772604117495482408'
+lifecycle_stage: active
+run_id: d211b00ebf914cdd9886678ba19431fe
+run_name: honorable-lamb-928
+run_uuid: d211b00ebf914cdd9886678ba19431fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717587149523
+status: 3
+tags: []
+user_id: pravin

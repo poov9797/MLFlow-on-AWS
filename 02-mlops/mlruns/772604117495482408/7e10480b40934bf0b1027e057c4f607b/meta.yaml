@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pravin/Zoomcamp-1/02-mlops/mlruns/772604117495482408/7e10480b40934bf0b1027e057c4f607b/artifacts
+end_time: 1717587032632
+entry_point_name: ''
+experiment_id: '772604117495482408'
+lifecycle_stage: active
+run_id: 7e10480b40934bf0b1027e057c4f607b
+run_name: powerful-sloth-992
+run_uuid: 7e10480b40934bf0b1027e057c4f607b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717587031234
+status: 3
+tags: []
+user_id: pravin
