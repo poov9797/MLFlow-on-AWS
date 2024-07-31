@@ -1,3 +1,3 @@
 # MLOps
 
-## Projects of MLFlow tracking server on AWS.
+## Scenarios of MLFlow tracking server on AWS.
