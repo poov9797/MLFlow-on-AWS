@@ -1,3 +1,3 @@
-# Zoomcamp
+# MLOps
 
-# Hello Folks feel free to use the projects.
+# Projects of MLFlow tracking server on AWS.
