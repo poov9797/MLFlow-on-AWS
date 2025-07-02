@@ -43,7 +43,7 @@ DB_TYPE=sqlite
 ```
 3. Add docker-compose.yml
 Create a docker-compose.yml file:
-
+```
 version: '3.1'
 
 services:
@@ -63,7 +63,7 @@ services:
       - ./n8n-data:/home/node/.n8n
     env_file:
       - .env
-
+```
 4. Start n8n
 bash
 ```
