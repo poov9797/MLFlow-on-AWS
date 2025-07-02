@@ -27,6 +27,7 @@ Replace with your actual repo or set this up in any directory.
 2. Create Environment File
 Create a .env file in the root directory with the following content:
 
+```
 # Basic Auth
 N8N_BASIC_AUTH_ACTIVE=true
 N8N_BASIC_AUTH_USER=admin
@@ -39,7 +40,7 @@ N8N_PROTOCOL=http
 
 # Optional: To persist workflows
 DB_TYPE=sqlite
-
+```
 3. Add docker-compose.yml
 Create a docker-compose.yml file:
 
