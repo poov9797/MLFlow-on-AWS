@@ -1,30 +1,32 @@
-🚀 n8n Docker Local Setup
-This guide walks you through setting up n8n locally using Docker.
+# 🚀 n8n Docker Local Setup
 
-📦 Prerequisites
-Make sure you have the following installed on your machine:
+This guide walks you through setting up **n8n** locally using Docker.
 
-Docker
+---
 
-Docker Compose (if using Docker Compose)
+## 📦 Prerequisites
 
-Optional: Node.js and npm for development
+Ensure you have the following installed on your machine:
 
-🛠️ Setup with Docker Compose
-1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/your-n8n-docker-repo.git
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/) (if using Docker Compose)
+- *Optional:* [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) for development
+
+---
+
+## 🛠️ Setup with Docker Compose
+
+### 1. Clone the Repository
+
+```bash
+git clone "https://github.com/your-username/your-n8n-docker-repo.gi"
 cd your-n8n-docker-repo
+```
 Replace with your actual repo or set this up in any directory.
 
 2. Create Environment File
 Create a .env file in the root directory with the following content:
 
-env
-Copy
-Edit
 # Basic Auth
 N8N_BASIC_AUTH_ACTIVE=true
 N8N_BASIC_AUTH_USER=admin
@@ -37,12 +39,10 @@ N8N_PROTOCOL=http
 
 # Optional: To persist workflows
 DB_TYPE=sqlite
+
 3. Add docker-compose.yml
 Create a docker-compose.yml file:
 
-yaml
-Copy
-Edit
 version: '3.1'
 
 services:
@@ -62,11 +62,13 @@ services:
       - ./n8n-data:/home/node/.n8n
     env_file:
       - .env
+
 4. Start n8n
 bash
-Copy
-Edit
+```
 docker-compose up -d
+```
+
 n8n will be accessible at: http://localhost:5678
 
 Login with the credentials from your .env file.
@@ -75,12 +77,12 @@ Login with the credentials from your .env file.
 To stop the container:
 
 bash
-Copy
-Edit
+```
 docker-compose down
+```
 To remove all data (be careful):
 
 bash
-Copy
-Edit
+```
 docker-compose down -v
+```
